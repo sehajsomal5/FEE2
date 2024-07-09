@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    body{
+        background-image: url(formbg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    h2{
+        
+    }
+    h1{
+        color:blue;
+        font-size: xx-large;
+    }
+    .text{
+         padding: 8px;
+         width:48%;
+         border-radius: 12px;
+         background-color: lightsteelblue;
+         border: 12px;
+         
+    }
+    .area{
+        padding: 15px;
+        width:75%;background-color: lightsteelblue;
+    }
+    .dropd{
+        width:48%;
+        border-radius: 12px;
+        padding: 8px;background-color: lightsteelblue;
+    }
+    .dropdown{
+        padding: 8px;
+        border-radius: 12px;background-color: lightsteelblue;}
+    .button{
+        width:60%;
+        padding: 12px;
+        background-color:blue;
+        color: aliceblue;
+        margin: 5%;
+    }
+</style>
+
+    <form action="submit.html">
+        <h1><center>JOB APPLICATION</center></h1>
+        <h2 >Personal details</h2>
+        <input type="checkbox" id="email" checked>
+        <label for="email">sehajsomal5@gmail.com</label><br><br>
+    <div class="name">
+        <p>Applicant's Name</p>
+        <input type="text" placeholder="First Name" class="text">
+        <input type="text" placeholder="Last Name" class="text"><br><br>
+    </div>
+        <input type="text" placeholder="Father's Name" class="text"><br><br><hr>
+        <h2 >Contact Details</h2>
+        <p>Address</p>
+        <textarea placeholder="Street Address Line1" class="area"></textarea><br><br>
+        <textarea placeholder="Street Address Line2" class="area"></textarea><br><br>
+        <input type="text" placeholder="City" class="text">
+        <input type="text" placeholder="Region" class="text"><br><br>
+        <input type="text" placeholder="State" class="text">
+        <select id="country" class="dropd">
+            <option value="1" >India</option>
+        
+            <option value="2" >China</option>
+        
+            <option value="3" >Pakistan</option>
+        
+            <option value="4" >Nepal</option>
+        </select>
+        <br><br>
+        <select id="code" class="dropdown">
+            <option value="+1" >+1</option>
+        
+            <option value="+61" >+91</option>
+        
+            <option value="+91" >+46</option>
+        
+            <option value="+46" >+61</option>
+        </select>
+        <input type="number" placeholder="Phone number" class="text"><br><br><hr>
+        Select Gender<br>
+        
+        <input type="radio" id="male">
+        <label for="male">Male</label><br><br>
+        
+        <input type="radio" id="male">
+        <label for="female">Female</label><br><br><hr>
+        <p>Enter you date of birth</p>
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" class="text" ><br>
+        
+        
+        <br><br><hr>
+        
+        <label for="myFile">Upload your resume here</label><br><br>
+        <input type="file" id="myFile" ><br>
+        <br><hr>
+        <center>
+        <button type="submit" class="button">Submit</button>
+        </center>
+
+    </form>
+
+</body>
+</html>
