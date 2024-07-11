@@ -1,0 +1,37 @@
+body{
+    background-image: url(formbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+h1{
+    color:beige;
+    font-size: xx-large;
+}
+.text{
+     padding: 8px;
+     width:48%;
+     border-radius: 12px;
+     background-color: lightsteelblue;
+     border: 12px;
+     
+}
+.area{
+    padding: 15px;
+    width:75%;background-color: lightsteelblue;
+}
+.dropd{
+    width:48%;
+    border-radius: 12px;
+    padding: 8px;background-color: lightsteelblue;
+}
+.dropdown{
+    padding: 8px;
+    border-radius: 12px;background-color: lightsteelblue;}
+.button{
+    width:60%;
+    padding: 12px;
+    background-color:blue;
+    color: aliceblue;
+    margin: 5%;
+}

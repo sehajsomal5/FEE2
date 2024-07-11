@@ -1,0 +1,11 @@
+h3{
+    background-color: pink;
+    border-color: black;
+    border-style: dashed;
+    font-size: 66px;
+    padding: 15px;
+}
+p{
+    background-color: peachpuff;
+    padding: 24px;
+}
