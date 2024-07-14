@@ -1,0 +1,41 @@
+/* universal selector */
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* id selector (uniqueness) */
+
+#superhero{
+    color: blue;
+    background-color: pink;
+    font-weight: 800 ;
+}
+
+/* class (multi times) */
+
+.super{
+    color: brown;
+
+}
+
+/* element selector */
+
+h1{
+    color: cadetblue;
+    text-decoration: line-through;
+}
+
+/* attribute selector
+*/
+
+input[type="text"]{
+    background-color:lightslategray;
+}
+input[type="password"]{
+    background-color:paleturquoise;
+}
+
+
+

@@ -1,0 +1,35 @@
+body{
+    background-image: url(Chitkara_University_pic.jpg);
+    background-size: cover;
+}
+.box{
+    background-color: white;
+    margin-left: 70%;
+    margin-right: 3%;
+    margin-top: 8%;
+    padding: 3%;
+}
+
+.inp{
+    width: 85%;
+    
+}
+.dropdown{
+    padding: 4px;
+    width: 85%;
+    margin-bottom: 4%;
+}
+.btn{
+    padding: 12px;
+    width: 85%;
+    background-color: rgb(173, 10, 10);
+    color: white;
+    border: transparent;
+    font-weight: 600;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.play{
+    margin-left: 10%;
+    margin-top: 4%;
+}

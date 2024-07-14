@@ -1,0 +1,5 @@
+/* decendent combinator selector */
+ul li a{
+    color: brown;
+    font-size: x-large;
+}
