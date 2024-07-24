@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 250px;
+            height: 250px;
+            background-color: blueviolet;
+            transition: background-color 2s;
+            transition-delay: 1s;
+        }
+        section:hover{
+            border-radius: 25px;
+            background-color: palevioletred;
+        }
+        
+        .divv{
+            border:2px solid black;
+            width:50px;
+            height:50px;
+            background-color: aqua;
+            margin: auto;
+            transition: margin 10s;
+        }
+        #div1 {transition-timing-function: linear;}
+        #div2 {transition-timing-function: ease;}
+        #div3 {transition-timing-function: ease-in;}
+        #div4 {transition-timing-function: ease-out;}
+        #div5 {transition-timing-function: ease-in-out;}
+        div:hover{
+            margin-left: 25%;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        
+    </section>
+    
+        <div class="divv" id="div1"></div>
+        <div class="divv" id="div2"></div>
+        <div class="divv" id="div3"></div>
+        <div class="divv" id="div4"></div>
+        <div class="divv" id="div5"></div>
+    
+</body>
+</html>
