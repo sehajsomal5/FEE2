@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    background-color: rgb(112, 112, 112);
+}
+#buyNow{
+    margin-right: 0px;
+    background-color: greenyellow;
+}
