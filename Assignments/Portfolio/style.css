@@ -1,3 +1,15 @@
+header{
+    background-color: pink;
+    height: 60px;
+    width:100%;
+}
 .side{
-   
+   background-color: rgb(174, 94, 106);
+   width:20%;
+   padding: 15px;
+   margin-top: 0%;
+}
+
+.center{
+    margin-right: 25%;
 }
